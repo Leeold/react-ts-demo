@@ -18,15 +18,15 @@
     "noEmit": true,
     "jsx": "react",
     "outDir": "dist",
-    "typeRoots": ["node_modules/@types", "./typings"],
-    "baseUrl": "./src",
+    // "typeRoots": ["node_modules/@types", "./typings"],
+    "baseUrl": "src",
     "paths": {
       // "@services/*": ["./services/*"],
-      // "@components/*": ["./components/*"],
+      "@components/*": ["./component/*"],
       // "@utils/*": ["./utils/*"],
       // "@hooks/*": ["./hooks/*"],
       // "@constant/*": ["./constant/*"],
-      // "@@/*": ["./*"]
+      "@@/*": ["./*"]
     }
   },
   "include": ["src", "typings"]
