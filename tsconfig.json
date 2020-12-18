@@ -21,7 +21,7 @@
     // "typeRoots": ["node_modules/@types", "./typings"],
     "baseUrl": "src",
     "paths": {
-      // "@services/*": ["./services/*"],
+      "@pages/*": ["./pages/*"],
       "@components/*": ["./component/*"],
       // "@utils/*": ["./utils/*"],
       // "@hooks/*": ["./hooks/*"],
