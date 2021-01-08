@@ -1,0 +1,7 @@
+.show {
+  width: 100px;
+  height: 100px;
+}
+.show:first-letter {
+  color: red;
+}
