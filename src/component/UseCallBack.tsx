@@ -3,7 +3,7 @@ import React, { useEffect, useState, useCallback } from "react";
 function Memo() {
   const [count, setCount] = useState(1);
   const [val, setVal] = useState("");
-  //useMemo 缓存一个变量
+  //useCallback 缓存一个函数
   const callBack = useCallback(() => {
     return count;
   }, [count]);
