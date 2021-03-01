@@ -1,11 +1,9 @@
 import React, { useMemo, useState } from "react";
 
-import "./index.css";
-//import EventEmitter from "@components/Event";
-
-function Index() {
+function Memo() {
   const [count, setCount] = useState(1);
   const [val, setVal] = useState("");
+  //useMemo 缓存一个变量
   const expensive = useMemo(() => {
     console.log("compute");
     let sum = 0;
@@ -30,4 +28,4 @@ function Index() {
     </React.Fragment>
   );
 }
-export default Index;
+export default Memo;
