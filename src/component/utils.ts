@@ -37,4 +37,6 @@ function arrFlat(arr: number[]): number[] {
   }, [] as number[]);
 }
 
+// https://www.jianshu.com/p/09bd0ca51ef5  rem布局方案解析；
+
 export { countWord, repetition, repetition1, arrFlat };
